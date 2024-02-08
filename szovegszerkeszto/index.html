@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Szövegszerkesztő</title>
+</head>
+<body>
+  <h1>Jegyzettömb</h1>
+  <input type="file" id="fileInput" accept=".txt">
+  <br>
+  <br>
+  <textarea id="editor" cols="500" rows="48"></textarea>
+  <br>
+  <br>
+  <label for="fileName">Fájlnév:</label>
+  <input type="text" id="fileName">
+  <br><br>
+  <button onclick="saveFile()">Mentés</button>
+  <div id="feedback"></div>
+  <script src="script.js"></script>
+
+</body>
+</html>
